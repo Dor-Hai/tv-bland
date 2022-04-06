@@ -1,0 +1,15 @@
+i.full {
+    color: var(--lightestbackground);
+}
+
+i.empty {
+    color: var(--lighterbackground);
+}
+
+p.stars-small {
+    font-size: .8em;
+}
+
+p.text-small {
+    font-size: .8em;
+}

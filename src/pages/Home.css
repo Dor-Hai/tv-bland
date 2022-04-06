@@ -1,0 +1,20 @@
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 36px;
+}
+
+.item-grid img {
+    width: 100%;
+}
+
+.item-grid .item-title {
+    font-weight: 600;
+    line-height: 1.4em;
+    color: var(--text);
+
+}
+
+.item-grid a {
+    text-decoration: none;
+}

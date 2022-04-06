@@ -1,0 +1,30 @@
+.show-star {
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--darkbackground);
+}
+
+.show-star i {
+    height: 60px;
+    width: 60px;
+    background: var(--darkbackground);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-star i:before {
+    font-size: 1.1em;
+}
+
+.show-star img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}

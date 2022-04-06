@@ -1,0 +1,7 @@
+.show-main img {
+    max-width: 300px;
+}
+
+.show-main p {
+    color: var(--text-secondary);
+}
