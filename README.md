@@ -5,7 +5,7 @@ A Web App that displays Today's TV shows and web series. Built with React.js
 ## Introduction
 
 A Web App that fetches Today's TV Shows and Info for each Show from [TV Maze API](https://www.tvmaze.com/api).
-Made as a developer challenge for 'Zarzilla'.
+Made for a developer challenge for 'Zarzilla'.
 
 
 ## Available Scripts
