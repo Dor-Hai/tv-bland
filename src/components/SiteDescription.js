@@ -1,5 +1,5 @@
 // Styles
-import './SiteDescription.css';
+import './SiteDescription.scss';
 
 export default function SiteDescription() {
   return (

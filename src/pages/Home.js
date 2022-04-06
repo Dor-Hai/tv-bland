@@ -6,7 +6,7 @@ import SiteDescription from '../components/SiteDescription';
 import Preloader from '../components/Preloader';
 
 // Styles
-import './Home.css';
+import './Home.scss';
 
 export default function Home() {
 

@@ -1,0 +1,32 @@
+@import '../scss/variables';
+
+.show-star {
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid $lighterbackground;
+
+    i {
+        height: 60px;
+        width: 60px;
+        background: $lighterbackground;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    i:before {
+        font-size: 1.1em;
+    }
+
+    img {
+        height: 60px;
+        width: 60px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}

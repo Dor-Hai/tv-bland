@@ -1,5 +1,5 @@
 // Styles
-import './ShowStar.css';
+import './ShowStar.scss';
 
 export default function ShowStar({ avatar, name, value }) {
 

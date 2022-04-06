@@ -1,0 +1,23 @@
+@import '../scss/variables';
+
+.show-main {
+    margin-bottom: 45px;
+
+    img {
+        max-width: 300px;
+        min-width: 300px;
+        object-fit: cover;
+    }
+
+    p {
+        color: $text-secondary;
+    }
+
+    .column:nth-child(1) {
+        flex-basis: 300px;
+    }
+
+    .column:nth-child(2) {
+        flex: 1 1 500px;
+    }
+}

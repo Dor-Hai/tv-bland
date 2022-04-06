@@ -1,5 +1,5 @@
 // Styles
-import './Rating.css'
+import './Rating.scss'
 
 export default function Rating({ rating, isSingle }) {
 

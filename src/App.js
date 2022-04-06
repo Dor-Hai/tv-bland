@@ -1,8 +1,5 @@
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
-// Styles
-import './App.css';
-
 // Pages
 import Home from './pages/Home';
 import Show from './pages/Show';

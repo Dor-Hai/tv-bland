@@ -2,7 +2,7 @@
 import Rating from './Rating';
 
 // Styles
-import './ShowMain.css';
+import './ShowMain.scss';
 
 // Functions
 import htmlToTxtFormatter from '../utils/htmlToTxtFormatter';

@@ -1,11 +1,11 @@
+@import '../scss/mixins';
+
 .show-details {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 36px;
-}
 
-@media all and (max-width: 767px) {
-    .show-details {
+    @include mobile {
         gap: 18px;
     }
 }

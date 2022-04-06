@@ -9,7 +9,7 @@ import ShowStarring from '../components/ShowStarring';
 import Preloader from '../components/Preloader';
 
 // Styles
-import './Show.css';
+import './Show.scss';
 
 export default function Show() {
   // Page ID

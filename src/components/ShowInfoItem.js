@@ -1,5 +1,5 @@
 // Styles
-import './ShowInfoItem.css';
+import './ShowInfoItem.scss';
 
 export default function ShowInfoItem({ name, value }) {
 
