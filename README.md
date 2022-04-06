@@ -1,10 +1,11 @@
 # TV Bland
 
-TV Show and web series database. Built with React.js
+A Web App that displays Today's TV shows and web series. Built with React.js
 
 ## Introduction
 
 A Web App that fetches Today's TV Shows and Info for each Show from [TV Maze API](https://www.tvmaze.com/api).
+Made as a developer challenge for 'Zarzilla'.
 
 
 ## Available Scripts
@@ -18,11 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
