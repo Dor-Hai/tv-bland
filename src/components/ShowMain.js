@@ -13,7 +13,7 @@ import thumbnail from '../images/thumbnail-large.png';
 export default function ShowMain({ image, name, rating, summary }) {
     
     return (
-        <div className="container padding flex show-details show-main">
+        <div className="container flex show-main">
             <div className="column">
                 {image ? (<img src={image.original} alt={name} />) : (<img src={thumbnail} alt={name} />)}
             </div>

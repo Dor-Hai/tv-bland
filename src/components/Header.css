@@ -2,6 +2,6 @@
     font-size: 2.5em;
 	line-height: 1em;
     text-decoration: none !important;
-    color: var(--text);
+    color: var(--primary);
     font-weight: 700;
 }

@@ -1,3 +1,4 @@
+// Components
 import ShowStar from "./ShowStar";
 
 export default function ShowStarring({ stars }) {

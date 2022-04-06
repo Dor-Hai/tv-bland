@@ -6,6 +6,7 @@ import { useFetch } from '../hooks/useFetch';
 import ShowMain from '../components/ShowMain';
 import ShowInfo from '../components/ShowInfo';
 import ShowStarring from '../components/ShowStarring';
+import Preloader from '../components/Preloader';
 
 // Styles
 import './Show.css';
@@ -22,7 +23,7 @@ export default function Show() {
 
   return (
     <>
-      {isPending && <div className="container">Loading...</div>}
+      {isPending && <Preloader />}
       {error && <div className="container">{error}</div>}
       {show && (
         <ShowMain 
@@ -32,9 +33,9 @@ export default function Show() {
         summary={show.summary}
       />
       )}
-      <div className="wrapper white-bg">
+      <div className="wrapper light-bg">
         <div className="container padding show-details">
-          <div className="row">
+          <div className="column">
             {show && <ShowInfo
                   streamedOn={show.network}
                   schedule={show.schedule}
@@ -42,7 +43,7 @@ export default function Show() {
                   genres={show.genres}
           />}
           </div>
-          <div className="row">
+          <div className="column">
             {starsIsPending && <div className="container">Loading...</div>}
             {starsError && <div className="container">{error}</div>}
             {stars && <ShowStarring stars={stars} />}

@@ -5,5 +5,15 @@
     justify-content: center;
     align-items: center;
     padding: 18px 0;
-    border-bottom: 1px solid var(--darkbackground);
+    border-bottom: 1px solid var(--lighterbackground);
+}
+
+@media all and (max-width: 767px) {
+    .show-info-item {
+        min-height: auto;
+        grid-template-columns: 1fr;
+        align-content: start;
+        border-bottom: none;
+        padding: 0 0 18px 0;
+    }
 }

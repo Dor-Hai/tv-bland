@@ -1,13 +1,13 @@
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
-// style
+// Styles
 import './App.css';
 
-// pages
+// Pages
 import Home from './pages/Home';
 import Show from './pages/Show';
 
-// components
+// Components
 import Header from './components/Header';
 
 function App() {

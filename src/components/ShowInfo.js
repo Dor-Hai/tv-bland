@@ -10,12 +10,12 @@ export default function ShowInfo({ streamedOn, schedule, status, genres }) {
   schedule = schedule ? schedule.days.join(', ') : schedule;
 
   return (
-    <div>
+    <>
         <h4>Show Info</h4>
         {streamedOn && (<ShowInfoItem name="Streamed on" value={streamedOn.name} />)}
         {schedule && (<ShowInfoItem name="Schedule" value={schedule} />)}
         {status && (<ShowInfoItem name="Status" value={status} />)}
         {genres && (<ShowInfoItem name="Genres" value={genres} />)}
-    </div>
+    </>
   )
 }

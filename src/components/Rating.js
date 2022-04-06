@@ -25,8 +25,8 @@ export default function Rating({ rating, isSingle }) {
     return (
         <>
             {rating && isSingle && (
-                <div>
-                    {ratingToStars(ratingFormatted)}
+                <div className="rating-container">
+                    <div>{ratingToStars(ratingFormatted)}</div> 
                     <p>{ratingFormatted}/5</p>
                  </div>
             )}
